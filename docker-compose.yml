@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  redis-ccu:
+    image: redis:6.0.13-alpine
+    container_name: redis-ccu-ctn
+    ports:
+      - 6379:6379
